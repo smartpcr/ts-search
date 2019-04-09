@@ -1,0 +1,24 @@
+{
+    "name": "ts-search",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "jest --env=node --colors --coverage test",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "lingxd <lingxd@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^24.0.11",
+        "jest": "^24.7.1",
+        "ts-jest": "^24.0.1",
+        "typescript": "^3.4.1"
+    },
+    "dependencies": {
+    }
+}
